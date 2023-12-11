@@ -1,4 +1,4 @@
-const Sequelize=require('sequelize');
+const Sequelize=require('sequelize'); //In Sequelize, most of the methods are asynchronous, therefore, return promises
 
 const sequelize=require('../util/database');
 
